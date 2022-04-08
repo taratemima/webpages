@@ -1,0 +1,72 @@
+<HTML>
+<head>
+<BASE HREF="http://www.ccs.neu.edu/home/tedwards/awards-me.html">
+<title>I've gotten awards</title></head>
+<!-- Changed by: Tara Edwards, 27-Jan-1999 -->
+<body bgcolor="FFFFFF">
+ <a href="http://www.apocalypse.org/pub/u/hilda/dada.html"><IMG SRC="pix/dada.jpg" ALT="I won the Dada Award!"></a>.<p>
+Was <a href="http://www.devildog.com/undead/tara.html">Goth Geek of the Week</a><br> and <a href="http://members.tripod.com/~vamphuntb/">Vampire Hunting Bastard of the Week</a>.<br> Strangely enough, they both used the same picture. *chuckle*<p>
+</body>
+
+<SCRIPT language="Javascript">
+<!--
+
+// FILE ARCHIVED ON 19991010131536 AND RETRIEVED FROM THE
+// INTERNET ARCHIVE ON 20070305114602.
+// JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+// ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+// SECTION 108(a)(3)).
+
+   var sWayBackCGI = "http://web.archive.org/web/19991010131536/";
+
+   function xResolveUrl(url) {
+      var image = new Image();
+      image.src = url;
+      return image.src;
+   }
+   function xLateUrl(aCollection, sProp) {
+      var i = 0;
+      for(i = 0; i < aCollection.length; i++) {
+         if (typeof(aCollection[i][sProp]) == "string") { 
+          if (aCollection[i][sProp].indexOf("mailto:") == -1 &&
+             aCollection[i][sProp].indexOf("javascript:") == -1) {
+            if(aCollection[i][sProp].indexOf("http") == 0) {
+                aCollection[i][sProp] = sWayBackCGI + aCollection[i][sProp];
+            } else {
+                aCollection[i][sProp] = sWayBackCGI + xResolveUrl(aCollection[i][sProp]);
+            }
+         }
+         }
+      }
+   }
+
+   xLateUrl(document.getElementsByTagName("IMG"),"src");
+   xLateUrl(document.getElementsByTagName("A"),"href");
+   xLateUrl(document.getElementsByTagName("AREA"),"href");
+   xLateUrl(document.getElementsByTagName("OBJECT"),"codebase");
+   xLateUrl(document.getElementsByTagName("OBJECT"),"data");
+   xLateUrl(document.getElementsByTagName("APPLET"),"codebase");
+   xLateUrl(document.getElementsByTagName("APPLET"),"archive");
+   xLateUrl(document.getElementsByTagName("EMBED"),"src");
+   xLateUrl(document.getElementsByTagName("BODY"),"background");
+   var forms = document.getElementsByTagName("FORM");
+   if (forms) {
+       var j = 0;
+       for (j = 0; j < forms.length; j++) {
+              f = forms[j];
+              if (typeof(f.action)  == "string") {
+                 if(typeof(f.method)  == "string") {
+                     if(typeof(f.method) != "post") {
+                        f.action = sWayBackCGI + f.action;
+                     }
+                  }
+              }
+        }
+    }
+
+
+//-->
+</SCRIPT>
+
+</HTML>
+
